@@ -1,0 +1,44 @@
+part,desc,fab_time,mat_cost,labor_cost,weight,lead_time,packaging,reorder_point,subs,quantities
+H000,Smart Hub (Final Product),3,250,150,2.5,6,Box,3,H100|H200|H300|H400|H500|H600|H700|H800|H810,1|1|1|1|1|1|1|1|1
+H100,Core Processing Unit,2,55,35,0.5,2,ESD Bag,2,H110|H120|H130|H140,1|1|1|1
+H110,CPU Board,1.5,18,10,0.13,2,ESD Bag,2,H910,1
+H120,Main PCB,1.2,9,6,0.06,1,Bag,2,, 
+H130,Flash Storage,0.6,4,3,0.03,1,Bag,2,, 
+H140,Enclosure,1,6,4,0.13,1,Box,2,, 
+H200,Power Supply,1.2,20,13,0.2,1,Box,2,H210|H220|H230,1|1|1
+H210,AC/DC Converter,0.7,9,4,0.07,1,Box,2,, 
+H220,Battery Pack,0.8,7,6,0.09,2,Bag,2,H950,2
+H230,Power Switch,0.3,3,2,0.04,1,Bag,2,H930,1
+H300,WiFi Module,1,14,8,0.08,1,Bag,2,H310|H320|H330,1|1|1
+H310,WiFi Chipset,0.7,6,3,0.02,1,Bag,2,H920,1
+H320,RF Shielding,0.4,3,2,0.03,1,Bag,2,H920,1
+H330,Module PCB,0.3,2,1,0.02,1,Bag,2,, 
+H400,Bluetooth Module,1,13,8,0.07,1,Bag,2,H410|H420|H430,1|1|1
+H410,Bluetooth Chipset,0.7,5,3,0.02,1,Bag,2,H920,1
+H420,RF Shielding,0.4,3,2,0.03,1,Bag,2,H920,1
+H430,Module PCB,0.3,2,1,0.02,1,Bag,2,, 
+H500,User Interface,1.5,22,11,0.11,2,Box,2,H510|H520|H530|H540,1|1|1|1
+H510,Touchscreen,1.2,10,6,0.05,1,Box,2,, 
+H520,LED Indicator,0.2,2,1,0.01,0.5,Bag,4,H930,1
+H530,Button Pad,0.5,3,2,0.02,1,Bag,2,H930,1
+H540,UI PCB,0.7,4,2,0.03,1,Bag,2,, 
+H600,Voice Control Add-on,1.8,20,14,0.14,2,Box,2,H610|H620|H630|H640,1|1|1|1
+H610,Microphone Array,0.6,6,3,0.03,1,Bag,2,H930,1
+H620,Speaker,0.8,7,5,0.04,1,Box,2,, 
+H630,Voice DSP,0.7,4,4,0.03,2,Bag,2,H910,1
+H640,Audio PCB,0.5,3,2,0.04,1,Bag,2,, 
+H700,Security Expansion Kit,2,25,16,0.18,2,Box,2,H710|H720|H730|H740|H750,1|1|1|1|1
+H710,Door Sensor,0.5,4,2,0.01,1,Bag,2,H930,1
+H720,Window Sensor,0.5,4,2,0.01,1,Bag,2,H930,1
+H730,Motion Detector,0.7,5,3,0.03,1,Bag,2,H950,1
+H740,Alarm Siren,0.8,5,3,0.07,1,Box,2,H930,1
+H750,Security PCB,0.6,4,2,0.05,1,Bag,2,, 
+H800,Accessories,0.8,8,4,0.11,1,Carton,2,H810|H820|H830,1|1|1
+H810,Power Adapter,0.4,4,1,0.03,1,Box,2,H950,1
+H820,USB Cable,0.2,1,1,0.02,0.5,Bag,5,, 
+H830,Mounting Kit,0.3,2,1,0.06,1,Bag,2,H930,1
+H910,Microcontroller,0.3,2,1,0.01,1,Bag,5,, 
+H920,RF Front End,0.4,2,1,0.01,1,Bag,5,, 
+H930,Standard Fasteners,0.1,1,1,0.01,0,Bulk Box,10,, 
+H940,Plastic Housing,0.2,2,1,0.13,0.5,Box,2,, 
+H950,Lithium Cell,0.2,3,1,0.04,1,Bag,8,, 

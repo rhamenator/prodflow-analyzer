@@ -1,0 +1,9 @@
+pandas
+networkx
+matplotlib
+pyyaml
+sqlalchemy
+psycopg2-binary
+flask
+pydot
+graphviz

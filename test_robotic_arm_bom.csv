@@ -1,0 +1,35 @@
+part,desc,fab_time,mat_cost,labor_cost,weight,lead_time,packaging,reorder_point,subs,quantities
+RA000,Robotic Arm (Final Assembly),3,2000,1200,40,10,Large Carton,2,RA100|RA200|RA300|RA400|RA500|RA600|RA700|RA810,1|1|1|1|1|1|1|1
+RA100,Base Assembly,2,300,200,10,3,None,2,RA110|RA120|RA130,1|4|1
+RA110,Main Base Plate,1.5,120,60,4,2,Bubble Wrap,4,, 
+RA120,Leveling Feet,0.3,5,2,0.2,1,Small Bag,12,, 
+RA130,Power Input Module,0.5,40,20,0.8,2,Box,2,RA910,4
+RA200,Shoulder Assembly,2,250,180,6,2,None,1,RA210|RA220|RA230,1|1|1
+RA210,Shoulder Frame,1,80,40,2,1,Wrap,2,, 
+RA220,Rotation Motor,1,60,40,1,2,Box,1,RA910,3
+RA230,Motor Controller,1.2,40,20,0.6,2,Bag,1,RA910|RA930,2|1
+RA300,Upper Arm Assembly,2,300,210,8,2,None,2,RA310|RA320,1|1
+RA310,Arm Beam,1,90,40,2.5,1,Wrap,2,, 
+RA320,Cable Harness,0.7,30,15,0.6,1,Bag,2,RA920,2
+RA400,Forearm Assembly,1.5,200,130,5,2,None,1,RA410|RA420,1|1
+RA410,Forearm Tube,0.7,60,25,1.8,1,Wrap,2,, 
+RA420,Signal Cable,0.6,25,10,0.4,1,Bag,2,RA920,1
+RA500,Wrist Assembly,1.2,150,110,3,1,None,1,RA510|RA520|RA530,1|1|1
+RA510,Wrist Housing,0.8,35,15,0.7,1,Bag,2,, 
+RA520,Wrist Motor,0.5,50,25,0.7,2,Box,1,RA910,1
+RA530,Slip Ring,0.6,25,10,0.3,1,Bag,1,RA940,1
+RA600,Gripper,1,180,90,2.5,1,None,2,RA610|RA620|RA630,1|1|1
+RA610,Gripper Frame,0.5,40,18,0.7,1,Wrap,2,, 
+RA620,Servo Motor,0.6,45,20,0.6,2,Box,1,RA910,1
+RA630,Sensor Array,0.7,60,20,0.5,2,Bag,1,RA950,1
+RA700,Control Console,2,220,150,3,2,Carton,2,RA710|RA720|RA730|RA740,1|1|1|1
+RA710,CPU Board,1.5,90,40,0.6,2,ESD Bag,1,, 
+RA720,Touchscreen,0.7,40,20,0.5,1,Bag,1,, 
+RA730,Enclosure,1.2,30,15,1,1,Box,2,, 
+RA740,Main Power Switch,0.3,20,10,0.2,1,Bag,2,RA910,1
+RA910,Standard Fasteners,0.1,1,1,0.01,0,Bulk Box,10,, 
+RA920,Shielded Cable,0.2,5,1,0.08,1,Roll,5,, 
+RA930,Heat Sink,0.3,6,2,0.1,1,Bag,2,, 
+RA940,Brush Contact,0.2,2,1,0.05,1,Bag,2,, 
+RA950,Force Sensor,0.5,18,5,0.04,1,Bag,2,, 
+RA810,Packaging Box,0.2,5,1,0.7,0,Large Carton,5,,

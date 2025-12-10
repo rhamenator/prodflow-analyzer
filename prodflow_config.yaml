@@ -1,0 +1,7 @@
+db_path: "prodflow_bom.db"
+data_source: "csv"
+csv_path: "test_robotic_arm_bom.csv"
+export_formats: ["json", "csv", "xml", "edi"]
+export_base: "prodflow_export"
+units_per_pallet: 12
+units_per_cwt: 20
