@@ -1,0 +1,19 @@
+[package]
+name = "prodflow-analyzer"
+version = "0.2.0"
+edition = "2024"
+description = "Fast, validated BOM rollup and material-planning tools"
+license = "MIT"
+
+[dependencies]
+csv = "1.3"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+[lib]
+name = "prodflow_analyzer"
+path = "src/lib.rs"
+
+[[bin]]
+name = "prodflow"
+path = "src/main.rs"
