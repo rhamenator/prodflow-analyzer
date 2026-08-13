@@ -254,7 +254,7 @@ def start_rest_api(engine):
         rec["quantities"] = list(links.loc[links["parent"]==part,"quantity"])
         return jsonify(rec)
 
-    app.run(host=config["rest_api_host"], port=config["rest_api_port"], debug=True)
+    app.run(host=config["rest_api_host"], port=config["rest_api_port"], debug=False)
 
 # ---- MAIN WORKFLOW ----
 def main():
