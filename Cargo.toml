@@ -2,8 +2,16 @@
 name = "prodflow-analyzer"
 version = "0.2.0"
 edition = "2024"
+authors = ["Richard M. Hamilton"]
 description = "Fast, validated BOM rollup and material-planning tools"
 license = "MIT"
+repository = "https://github.com/rhamenator/prodflow-analyzer"
+
+[package.metadata.wix]
+upgrade-guid = "BC3F6219-4701-416A-AD5D-E7EA579D934B"
+path-guid = "E1417129-2D03-4561-82CF-27B5EFF8B3BE"
+license = false
+eula = false
 
 [dependencies]
 csv = "1.3"
@@ -17,3 +25,8 @@ path = "src/lib.rs"
 [[bin]]
 name = "prodflow"
 path = "src/main.rs"
+
+# The profile that 'dist' will build with
+[profile.dist]
+inherits = "release"
+lto = "thin"
