@@ -1,3 +1,7 @@
+<p align="center">
+  <img src=".github/assets/logo.png" alt="ProdFlow Analyzer logo" width="220">
+</p>
+
 # Prodflow Analyzer
 
 Prodflow Analyzer is a fast Rust tool for validating bills of material,
